@@ -1,4 +1,4 @@
-header{
+header {
     max-width: 1320px;
     background-image: linear-gradient(to bottom, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url(./images/banner.png);
     margin: 50px auto;
@@ -8,23 +8,106 @@ header{
 
 }
 
-.secondary-title{
-    font-family:"Merriweather", serif; 
-    color: white;
+.secondary-title {
+    font-family: "Merriweather", serif;
+    color: #ffffff;
     font-weight: 400;
     font-size: 32px;
-     text-align: center;
-     padding-top: 185px;
-     margin-bottom: 10px;
+    text-align: center;
+    padding-top: 185px;
+    margin-bottom: 10px;
 
 }
+
 .primary-title {
-  font-family: "Merriweather", serif;
-  color: white;
-  font-size: 72px;
-  font-weight: black;
-  margin-top: 0px;
-  margin-bottom: 0px;
-   text-align: center;
-  
+    font-family: "Merriweather", serif;
+    color: #ffffff;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+
+.category {
+    max-width: 803px;
+    height: 806px;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.discount {
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 48px;
+}
+
+.discount-description {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 500px;
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+
+}
+
+.discount-category {
+    color: #070211;
+    margin-top: 0px;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
+
+.welcome {
+    display: flex;
+    max-width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    background-image: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url(./images/Vectorrr.png);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+}
+
+.welcome img {
+    height: 465px;
+    width: 320px;
+    padding-top: 68px;
+    padding-right: 138px;
+}
+
+.welcome-heading {
+    color: #ffffff;
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    font-weight: 900;
+    max-width: 642px;
+    margin-left: 126px;
+    margin-top: 126px;
+    margin-bottom: 0px;
+}
+
+.welcome-description {
+    color: #ffffffc2;
+    max-width: 697px;
+    font-size: 18px;
+    margin-left: 126px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.welcome-text a{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+    margin-left: 158px;
+    margin-top: 48px;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
 }
