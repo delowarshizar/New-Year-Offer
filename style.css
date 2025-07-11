@@ -101,7 +101,7 @@ header {
     font-family: "Inter", sans-serif;
 }
 
-.welcome-text a{
+.welcome-text a {
     text-decoration: none;
     font-size: 20px;
     display: block;
@@ -110,4 +110,41 @@ header {
     margin-top: 48px;
     color: #ffffff;
     font-family: "Inter", sans-serif;
+}
+
+.place {
+    background: linear-gradient(to bottom, #ffdede, #ffffff);
+    max-width: 1320px;
+    height: 482px;
+    margin: 120px auto;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.place-text-red {
+    font-weight: 600px;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    color: #FF0000;
+}
+
+.place-text-black {
+    color: #070211;
+
+}
+
+.place-name {
+    padding-top: 100px;
+}
+
+.place-button {
+    background-color: #FF0000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    border-radius: 8px;
+    margin-top: 48px;
+    color: white;
+    border: none;
+    padding: 16px 32px;
 }
