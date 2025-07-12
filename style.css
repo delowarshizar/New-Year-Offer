@@ -148,3 +148,92 @@ header {
     border: none;
     padding: 16px 32px;
 }
+
+.celebrate {
+    display: flex;
+    max-width: 1320px;
+    height: 463px;
+    margin: 120px auto;
+}
+
+.left {
+    max-width: 393px;
+    padding-right: 70px;
+}
+
+.left-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF0000;
+    margin-top: 104px;
+    margin-bottom: 0px;
+
+}
+
+.left-heading {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: #070211;
+    margin-top: 16px;
+    margin-bottom: 0px;
+
+}
+
+.left-description {
+    margin-top: 22px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400px;
+    color: #07021189;
+
+}
+
+.right {
+    margin-left: 118px;
+
+}
+
+.right-title {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    color: #FF0000;
+    font-weight: bold;
+    margin-top: 112px;
+    margin-bottom: 0px;
+
+}
+
+.right-description {
+    font-family: "Inter", sans-serif;
+    width: 276px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #07021189;
+    margin-top: 16px;
+    margin-bottom: 43px;
+
+}
+
+.circle-photo {
+    height: 463px;
+    width: 463px;
+    border: 10px solid red;
+    border-radius: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circle-photo img {
+    height: 365px;
+    width: 365px;
+
+}
+
+.right image {
+    margin-top: 0px;
+    width: 140px;
+    height: 140px;
+}
