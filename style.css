@@ -237,3 +237,189 @@ header {
     width: 140px;
     height: 140px;
 }
+
+.holiday {
+    max-width: 1320px;
+    margin: 0px auto;
+}
+
+.holiday-title {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #070211;
+    margin-bottom: 0px;
+}
+
+.holiday-heading1 {
+    margin-top: 16px;
+    text-align: center;
+    font-family: "Merriweather", sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    color: #FF0000;
+    margin-bottom: 28px;
+}
+
+.holiday-heading2 {
+    color: #070211;
+
+}
+
+.holiday-description {
+    text-align: center;
+    max-width: 1068px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #07021189;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.holiday-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.holiday-image1 {
+    height: 675px;
+    width: 578px;
+    margin-top: 64px;
+    margin-left: 60px;
+
+}
+
+.holiday-image2 {
+    height: 306px;
+    width: 306px;
+    margin-top: 200px;
+    margin-right: 40px;
+
+}
+
+.holiday-rec-image {
+    position: relative;
+    z-index: -1;
+    top: -200px;
+
+
+}
+
+.gift {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.gift-title {
+    margin-top: 120px;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 0px;
+}
+
+.gift-heading {
+    margin-top: 16px;
+    font-family: "Merriweather", sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: #070211;
+    margin-bottom: 22px;
+}
+
+.gift-description {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: #07021189;
+    margin-top: 0px;
+}
+
+.gift-image {
+    padding: 5px;
+
+}
+
+.subscriber {
+    max-width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    margin: 120px auto;
+    background-color: #ff000014;
+}
+
+.sub-email {
+    margin-top: 80px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 0px;
+
+
+}
+
+.sub-image {
+
+    display: flex;
+    justify-content: center;
+}
+
+.sub-heading {
+    margin-top: 40px;
+    text-align: center;
+    font-family: "Merriweather", sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: #070211;
+    margin-bottom: 22px;
+}
+
+.sub-description {
+    text-align: center;
+    max-width: 1068px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #07021189;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+input[type="email"] {
+    background-color: white;
+    width: 438px;
+    height: 72px;
+    border: none;
+    border-radius: 45px 0 0 45px;
+
+}
+
+::placeholder {
+    color: #07021130;
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+.sub-input-btn {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+.sub-btn{
+    background-color: #FF0000;
+    width: 210px;
+    height: 74px;
+    border: none;
+    border-radius: 0 45px 45px 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer{
+    height: 610px;
+    background-color: #070211;
+}
