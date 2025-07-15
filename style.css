@@ -409,7 +409,8 @@ input[type="email"] {
     display: flex;
     justify-content: center;
 }
-.sub-btn{
+
+.sub-btn {
     background-color: #FF0000;
     width: 210px;
     height: 74px;
@@ -419,7 +420,64 @@ input[type="email"] {
     font-size: 20px;
     font-weight: 600;
 }
-.footer{
+
+.footer {
     height: 610px;
     background-color: #070211;
+
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    margin-left: 140px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.footer-right {
+    margin-right: 275px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.footer-color-size {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+}
+
+.footer-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.footer-image {
+    padding: 0px 20px;
+}
+
+hr {
+    opacity: 0.15;
+    background-color: #ffffff;
+}
+
+.footer-legal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    margin-left: 140px;
+    margin-top: 50px;
+}
+
+.unsubscribe {
+    margin-right: 140px;
+    margin-top: 50px;
 }
